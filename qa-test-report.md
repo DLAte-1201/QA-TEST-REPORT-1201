@@ -62,7 +62,7 @@
 | TC-06 | 테마 전환 기능 | 사이트 접속 | 테마 버튼과 스크립트 로직 확인 | 다크/라이트/자동 테마 전환 가능 | `data-theme`, `localStorage`, 아이콘 변경 로직 확인 | Pass | `script.js` 기준 |
 | TC-07 | 프로젝트 카드 표시 | Projects 섹션 | 프로젝트 카드 개수와 설명 확인 | 프로젝트별 제목, 설명, GitHub 링크 표시 | 프로젝트 카드 3개 확인 | Pass | 라이브 URL 기준 |
 | TC-08 | 프로젝트 링크 정확성 | Projects 섹션 | 각 GitHub 링크 확인 | 사용자 GitHub 계정 기반 링크가 표시되어야 함 | `github.com/DLAte-1201/...` 형식으로 링크 반영 | Pass | 저장소 공개 여부는 별도 확인 필요 |
-| TC-09 | Contact 영역 표시 | Contact 섹션 | 이메일과 GitHub 링크 확인 | 연락 가능한 정보가 표시됨 | `seogm0101@gmail.com`, `github.com/DLAte-1201` 확인 | Pass | 라이브 URL 기준 |
+| TC-09 | Contact 영역 표시 | Contact 섹션 | 이메일과 GitHub, LinkedIn 링크 확인 | 연락 가능한 정보가 표시됨 | `Gmail`, `Github`, `LinkedIn 프로필` 확인 | Pass | 라이브 URL 기준 |
 | TC-10 | 투자 관련 글 표현 | Notes/Blog 섹션 | Investment Research 문구 확인 | 종목 추천이 아닌 학습/리서치 기록으로 표현 | “특정 종목 추천이 아닌 개인 학습용 리서치 기록” 문구 확인 | Pass | 요구사항 부합 |
 | TC-11 | 반응형 레이아웃 CSS | CSS 검토 | `@media` 규칙과 grid 변경 확인 | 모바일/태블릿에서 단일 열 또는 적절한 레이아웃 적용 | 920px, 760px 기준 미디어 쿼리 확인 | Pass | 코드 정적 검토 기준 |
 | TC-12 | 폰트 크기와 시각적 위계 | Home, 섹션 제목 검토 | `h1`, `h2`, 본문, 카드 스타일 확인 | 제목, 본문, 카드의 위계가 구분됨 | `clamp()` 기반 제목 크기와 카드 스타일 확인 | Pass | 메인 제목 개선 여지 있음 |
